@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik+Mono+One';
+body {
+    background-color: black;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+img {
+    margin: 2%;
+    height: 10%;
+}
+
+#home {
+    height: 51rem;
+    background-image: linear-gradient(rgba(143, 129, 129, 0.692), rgba(255, 255, 0, 0)), url("../pic2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skillsets {
+    padding: 10%;
+    background-color: #444;
+    height: 800px;
+}
+
+.spaceIcons {
+    align-items: center;
+    padding-left: 30%;
+    padding-top: 2%;
+}
