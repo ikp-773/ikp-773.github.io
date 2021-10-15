@@ -9,9 +9,15 @@ img {
     height: 10%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+}
+
 #home {
     height: 51rem;
-    background-image: linear-gradient(rgba(143, 129, 129, 0.692), rgba(255, 255, 0, 0)), url("../pic2.jpeg");
+    background-image: linear-gradient(rgba(143, 129, 129, 0.692), rgba(8, 1, 1, 0.753)), url("../images/pic2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,10 +26,4 @@ img {
     padding: 10%;
     background-color: #444;
     height: 600px;
-}
-
-.spaceIcons {
-    align-items: center;
-    padding-left: 30%;
-    padding-top: 2%;
 }
